@@ -1,0 +1,13 @@
+.countery-cards {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 5px;
+   row-gap: 75px;
+}
+
+@media screen and (max-width: 567px){
+   .countery-cards {
+      justify-content: center;
+   }
+}
